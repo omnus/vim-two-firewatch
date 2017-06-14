@@ -346,7 +346,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   " }}}
 
   " Standard syntax highlighting --------------------------------------------{{{
-  call <sid>X('Comment',        s:uno_4,                '',          'italic')
+  call <sid>X('Comment',        s:uno_4,                '',          '')
   call <sid>X('Constant',       s:duo_2,                '',          '')
   call <sid>X('String',         s:duo_1,                '',          '')
   call <sid>X('Character',      s:duo_2,                '',          '')
@@ -606,7 +606,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <sid>X('mkdURL',                   s:duo_1, '', 'underline')
 
   call <sid>X('htmlBold',                 s:uno_2, '', 'bold')
-  call <sid>X('htmlItalic',               s:uno_2, '', 'italic')
+  call <sid>X('html',               s:uno_2, '', 'italic')
   " }}}
 
   " NERDTree highlighting ---------------------------------------------------{{{
